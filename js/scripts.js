@@ -122,3 +122,18 @@ function deleteMode(){
 	rightSideBarDirty = true;
 	selectedType = -1;
 }
+
+function saveButtonPressed(){
+	sortMapGrid();
+	var uriContent = "data:application/json," + encodeURIComponent(JSON.stringify(mapGrid));
+	location.href = uriContent;
+}
+
+function sortMapGrid(){
+	mapGrid.cells.sort(function(a, b){
+		return a.y-b.y;
+	});
+	mapGrid.cells.sort(function(a, b){
+		return a.x-b.x;
+	});
+}

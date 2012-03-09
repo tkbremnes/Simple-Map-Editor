@@ -3,8 +3,10 @@ mapGrid = {
 	width: 25,
 	height: 25,
 	cells: [
+	{ x:12, y:5, type: 3},
 	{ x:1, y:5, type: 3},
 	{ x:2, y:5, type: 4},
+	{ x:1, y:6, type: 3},
 	{ x:3, y:5, type: 5}
 	],
 }
