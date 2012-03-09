@@ -1,0 +1,98 @@
+spriteSheetPositions = {
+	0: {
+		x: 0,
+		y: 0,
+		w: 16,
+		h: 16,
+		type: 'single-vertical-top'
+	},
+	1: {
+		x: 16,
+		y: 0,
+		w: 16,
+		h: 16,
+		type: 'single-vertical-middle'
+	},
+	2: {
+		x: 32,
+		y: 0,
+		w: 16,
+		h: 16,
+		type: 'single-vertical-bottom'
+	},
+	3: {
+		x: 0,
+		y: 16,
+		w: 16,
+		h: 16,
+		type: 'single-horizontal-left'
+	},
+	4: {
+		x: 16,
+		y: 16,
+		w: 16,
+		h: 16,
+		type: 'single-horisontal-middle'
+	},
+	5: {
+		x: 32,
+		y: 16,
+		w: 16,
+		h: 16,
+		type: 'single-horisontal-right'
+	},
+	6: {
+		x: 0,
+		y: 32,
+		w: 16,
+		h: 16
+	},
+	7: {
+		x: 16,
+		y: 32,
+		w: 16,
+		h: 16
+	},
+	8: {
+		x: 32,
+		y: 32,
+		w: 16,
+		h: 16
+	},
+	9: {
+		x: 0,
+		y: 48,
+		w: 16,
+		h: 16
+	},
+	10: {
+		x: 16,
+		y: 48,
+		w: 16,
+		h: 16
+	},
+	11: {
+		x: 32,
+		y: 48,
+		w: 16,
+		h: 16
+	},
+	12: {
+		x: 0,
+		y: 64,
+		w: 16,
+		h: 16
+	},
+	13: {
+		x: 16,
+		y: 64,
+		w: 16,
+		h: 16
+	},
+	14: {
+		x: 32,
+		y: 64,
+		w: 16,
+		h: 16
+	}
+}

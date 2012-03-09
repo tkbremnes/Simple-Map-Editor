@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>MapEditor</title>
+</head>
+<body style="background: #eaeaea;">
+	<canvas id="canvas" height="600" width="600"></canvas>
+	<button onclick="deleteMode()">Delete mode</button>
+
+	<textarea id="saveMap"></textarea>
+
+	<script src="img/spritesheet.json"></script>
+	<script src="js/mapgrid.json"></script>
+	<script src="js/map.js"></script>
+	<script src="js/mapCell.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/mouselistener.js"></script>
+	<script src="js/bottomBar.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			init();
+		});
+	</script>
+</body>
+</html>
